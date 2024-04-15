@@ -16,4 +16,4 @@ Include the files used
     * Git Commands Documentation.pdf
 
 ### Credits
-* [Git Introduction.](https://git-scm.com/docs/user-manual)
+* [Git Introduction documentation.](https://git-scm.com/docs/user-manual)
