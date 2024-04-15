@@ -16,8 +16,4 @@ Include the files used
     * Git Commands Documentation.pdf
 
 ### Credits
-<<<<<<< HEAD
 * [Git Introduction.](https://git-scm.com/docs/gittutorial)
-=======
-* [Git Introduction.](https://git-scm.com/docs/user-manual)
->>>>>>> documentation
