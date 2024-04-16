@@ -7,6 +7,7 @@
 
 ### Description
 Simulated a realistic workflow to refactor the previous project BikeShare using Git.
+Disable function Display data
 
 ### Files used
 Include the files used
