@@ -177,20 +177,20 @@ def user_stats(df):
     print('-'*40)
 
     
-# def display_data(df):
-#     start=0
-#     choice=input('\nDo you want to view the data? Enter yes or no.\n').lower()
-#     while choice=='yes':
-#         try:
-#             n=int(input('Enter the number of rows to view\n'))
-#             n=start+n
-#             print(df[start:n])
-#             choice=input('More rows? Enter yes or no.\n').lower()
-#             start=n
+def display_data(df):
+    start=0
+    choice=input('\nDo you want to view the data? Enter yes or no.\n').lower()
+    while choice=='yes':
+        try:
+            n=int(input('Enter the number of rows to view\n'))
+            n=start+n
+            print(df[start:n])
+            choice=input('More rows? Enter yes or no.\n').lower()
+            start=n
 
-#         except ValueError:
-#             print('Enter appropriate integer value')
-#     print('-'*40)       
+        except ValueError:
+            print('Enter appropriate integer value')
+    print('-'*40)       
             
 def main():
     while True:
@@ -201,7 +201,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        # display_data(df)
+        display_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
         if restart.lower() != 'yes':
